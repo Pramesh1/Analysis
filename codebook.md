@@ -101,14 +101,13 @@ A rapid head() on each table shows which column is relevantfor us.
 
 * for each of the 30 subjects:
 
-  1 Create a sub dataset  from RESULT3 above
-  2.	get the means for each variable - per activity : using the ddply() command (needs plyr library)
-  3.	3.	append the result to the empty data frame create
+    * 1. Create a sub dataset  from RESULT3 above
+    * 2. Get the means for each variable - per activity : using the ddply() command (needs plyr library)
+    * 3. Append the result to the empty data frame create
 
 * Loop till the end
-* At the end of the loop .RESULT4 = result to question 5
+* At the end of the loop :   RESULT4 = result to question 5
 * Verify if file already exist  :  if yes then delete it using the file.remove() function
-* Create a file called :   ./ UCI HAR Dataset/ PR-RESULT4.csv       
-* 
+* Create a file called :   ./ UCI HAR Dataset/ PR-RESULT4.csv     * 
 
 eof
