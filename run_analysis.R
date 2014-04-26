@@ -58,12 +58,12 @@ run_analysis <- function() {
         names(merged_data)<-fac_Features
         RESULT1 <- merged_data
 
-        ver_file= paste(".",paste(directory, "PR-RESULT1.csv", sep = "/"),sep="/")
+        ver_file= paste(".",paste(directory, "PR-RESULT1.txt", sep = "/"),sep="/")
         if(file.exists(ver_file))file.remove(ver_file)
-        write.table(RESULT1,paste(paste(".",directory,sep="/"),"PR-RESULT1.csv",sep="/"))      
+        write.table(RESULT1,paste(paste(".",directory,sep="/"),"PR-RESULT1.txt",sep="/"))      
 
-print("The 2 Datasets Have been Merged in a new set called RESULT1-")
-print("New File created in working dircetory : PR-RESULT1.csv")
+print(Q1: "The 2 Datasets Have been Merged in a new set called RESULT1-")
+print(Q1: "New File created in working dircetory : PR-RESULT1.txt")
 
 
 ###   2.Extracts only the measurements on the mean and standard deviation for each measurement.
@@ -102,9 +102,10 @@ for( i in 1:30) {
         }
 RESULT4<-pr_dset
 
-        ver_file= paste(".",paste(directory, "PR-RESULT4-TIDY.csv", sep = "/"),sep="/")
+        ver_file= paste(".",paste(directory, "PR-RESULT4-TIDY.txt", sep = "/"),sep="/")
         if(file.exists(ver_file))file.remove(ver_file)
-        write.table(RESULT4,paste(paste(".",directory,sep="/"),"PR-RESULT4-TIDY.csv",sep="/"))
+        write.table(RESULT4,paste(paste(".",directory,sep="/"),"PR-RESULT4-TIDY.txt",sep="/"))
 
+print("Q5 Completeded: Tidy data set file created - PR-RESULT4-TIDY.txt")
 ##end
 }
