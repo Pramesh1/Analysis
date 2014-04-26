@@ -5,6 +5,7 @@ Peer Assessment Assignment - Coursera2014
 Pramesh
 
 (run_analysis.R) is the scripted function created for the assignment.
+the codebook explains the script and describes the variables used
 
 The main working directory is ste to "UCI HAR Dataset" - one level down from the working directory. 
 But this can be changed in the script (right at the top).
