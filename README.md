@@ -1,5 +1,7 @@
-Run Analysis
+###Run Analysis
 ========
+
+#### NOTE : Output file type changed from CSV to TXT at last minute
 
 Peer Assessment Assignment - Coursera2014
 Pramesh
