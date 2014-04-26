@@ -62,8 +62,8 @@ run_analysis <- function() {
         if(file.exists(ver_file))file.remove(ver_file)
         write.table(RESULT1,paste(paste(".",directory,sep="/"),"PR-RESULT1.txt",sep="/"))      
 
-print(Q1: "The 2 Datasets Have been Merged in a new set called RESULT1-")
-print(Q1: "New File created in working dircetory : PR-RESULT1.txt")
+print("Q1 : The 2 Datasets Have been Merged in a new set called RESULT1-")
+print("Q1 : New File created in working dircetory : PR-RESULT1.txt")
 
 
 ###   2.Extracts only the measurements on the mean and standard deviation for each measurement.
