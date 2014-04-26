@@ -63,7 +63,7 @@ A rapid head() on each table shows which column is relevantfor us.
         RESULT1 = merged_data
 
   - Verify if file already exist  :  if yes then delete it using the file.remove() function
-  - Create a file called :   ./ UCI HAR Dataset/ PR-RESULT1.csv       
+  - Create a file called :   ./ UCI HAR Dataset/ PR-RESULT1.txt       
 
 
 #### Assessment Item 2: Extract only the measurements on the mean and standard deviation for each measurement.
@@ -108,6 +108,6 @@ A rapid head() on each table shows which column is relevantfor us.
 * Loop till the end
 * At the end of the loop :   RESULT4 = result to question 5
 * Verify if file already exist  :  if yes then delete it using the file.remove() function
-* Create a file called :   ./ UCI HAR Dataset/ PR-RESULT4.csv     * 
+* Create a file called :   ./ UCI HAR Dataset/ PR-RESULT4-TIDY.txt     * 
 
 eof
